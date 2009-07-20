@@ -16,5 +16,7 @@ Gem::Specification.new do |s|
 
   s.files = %w(CHANGELOG MIT-LICENSE README Rakefile init.rb lib/acts_as_graph.rb)
   s.test_files %w(test/acts_as_graph_test.rb test/database.yml test/schema.rb test/test_helper.rb test/fixtures/employee_edges.yml test/fixtures/employees.yml)
+
+  s.add_dependency('activerecord', '>= 2.3.2')
 end
 
